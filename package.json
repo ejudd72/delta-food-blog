@@ -1,0 +1,27 @@
+{
+  "name": "food-blog",
+  "version": "1.0.0",
+  "description": "Team Delta's food blog project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejudd72/delta-food-blog.git"
+  },
+  "author": "Nic, Ellie, Jae, Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejudd72/delta-food-blog/issues"
+  },
+  "homepage": "https://github.com/ejudd72/delta-food-blog#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^2.0.0"
+  }
+}
