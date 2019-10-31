@@ -58,6 +58,7 @@ gulp.task("watch-js", () => {
 );
 
 //HTML MINIFY - destination is dist(ribution) folder
+
 gulp.task('minify-HTML', () => {
   return gulp.src('src/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
