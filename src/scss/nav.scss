@@ -1,0 +1,47 @@
+.nav-container {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+        font-size:1.5em;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5); 
+   
+        .logo{
+            margin: 40px;
+            font-family: $logo-font;
+            font-size: 1.5em;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:link {
+            color: $dark-green; 
+        }
+
+        a:hover {
+            color: $brown;
+            text-decoration: none;
+        }
+
+        .nav-ul{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin-top: 40px;
+            
+
+            li{
+                list-style: none;
+                padding: 0 30px;
+                font-family:$heading-font;
+                font-size:1.5em;
+            }
+        }
+    }
+
+// body {
+//     background: blueviolet;
+// }
