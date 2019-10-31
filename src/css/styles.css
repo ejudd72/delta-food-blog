@@ -17,3 +17,19 @@ footer {
     width: 30px; }
   footer img:hover {
     background-color: blue; }
+
+.nav-container {
+  font-size: 2em; }
+  .nav-container a {
+    text-decoration: none; }
+  .nav-container .nav {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
+    .nav-container .nav li {
+      list-style: none;
+      margin: 10px;
+      padding: 10px; }
+
+body {
+  background: lightblue; }
