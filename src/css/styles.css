@@ -22,6 +22,14 @@ footer {
     width: 30px; }
   footer .icon:hover {
     background-color: blue; }
+
+.carousell-image {
+  max-width: 1400px; }
+
+.carousell-container-home {
+  border: 10px solid grey; 
+}
+
   footer .coll-1, footer .coll-2, footer .coll-3 {
     width: 30%;
     text-align: left;

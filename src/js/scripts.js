@@ -1,6 +1,10 @@
 /*!
  * jQuery JavaScript Library v3.3.1 -ajax,-ajax/jsonp,-ajax/load,-ajax/parseXML,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-event/ajax,-effects,-effects/Tween,-effects/animatedSelector
+<<<<<<< HEAD
+ * https://jquery.com///...
+=======
  * https://jquery.com/
+>>>>>>> master
  *
  * Includes Sizzle.js
  * https://sizzlejs.com/
@@ -10858,12 +10862,20 @@ return Popper;
 })));
 //# sourceMappingURL=popper.js.map
 
+<<<<<<< HEAD
+/*!er hello
+  * Bootstrap v4.3.1 (https://getbootstrap.com/)
+  * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  *///..//////
+=======
 /*!
   * Bootstrap v4.3.1 (https://getbootstrap.com/)
   * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 
+>>>>>>> master
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('popper.js')) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
