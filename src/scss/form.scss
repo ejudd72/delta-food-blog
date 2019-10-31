@@ -23,4 +23,11 @@ form {
         background-color: $yellow-green;
         border: solid $green 2px;
     }
+    button {
+        padding: 10px;
+        text-align: center;
+        background-color: $yellow-green;
+        color: $brown;
+        font-family: $logo-font;
+    }
 }
