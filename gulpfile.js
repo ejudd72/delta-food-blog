@@ -34,7 +34,7 @@ gulp.task('watch', () =>{
 
 gulp.task('concatJS', () => {
     return gulp.src(js_files)
-      .pipe(concat('src/scripts.js'))
+      .pipe(concat('scripts.js'))
       .pipe(gulp.dest('./src/js/'));
     }
 );
