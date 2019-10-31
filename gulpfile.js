@@ -37,11 +37,7 @@ let js_files = ['./src/js/jquery-3.3.1.slim.js','./src/js/popper.js','./src/js/b
 gulp.task('concatJS', () => {
     return gulp.src(js_files)
       .pipe(concat('scripts.js'))
-<<<<<<< HEAD
-      .pipe(gulp.dest('./src/js/'));
-=======
       .pipe(gulp.dest('./dist/js/'));
->>>>>>> master
     }
 );
 //uglifies the JS and saves in dist folder
