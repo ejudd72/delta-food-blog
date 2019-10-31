@@ -79,6 +79,6 @@ function serve(done) {
   done();
 }
 
-const watch = () => gulp.watch(['./scss/**/*.scss', './js/*.js'], gulp.series('styles', 'scripts', reload));
+let watchBrowser = () => gulp.watch(['./src/scss/**/*.scss', './src/js/*.js'], gulp.series('styles', 'scripts', reload));
 
-gulp.task('default', gulp.series(serve, watch));
+gulp.task('default', gulp.series(serve, watchBrowser));
