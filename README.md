@@ -27,6 +27,11 @@ On command line type 'npm install' in the project directory and this will instal
 ## Work In Progress
 ### Ellie
 1. Footer
+2. form layout 
+3. adding colour scheme (with Jae)
+4. adding font styles and settings (with Jae)
+5. Cards layout page
+6. cards styling
 
 ### Jae
 1. Navbar 
