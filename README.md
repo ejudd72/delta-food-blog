@@ -16,3 +16,15 @@ On command line type 'npm install' in the project directory and this will instal
 7. gulp-uglify-es
 8. browser-sync
 
+## Work In Progress
+### Ellie
+1. Footer
+
+### Jae
+1. Navbar 
+
+### Ross
+1. Carousel 
+
+### Nic
+1. Gulpfile HTML & Browser-Sync
