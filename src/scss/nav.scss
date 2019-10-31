@@ -1,16 +1,22 @@
 
 .nav-container {
-        // display: flex;
-        // justify-content: space-between;
-        font-size:2em;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        font-size:1.5em;
+
+        .logo{
+            margin-top:30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
 
         a{
             text-decoration: none;
         }
 
-        .nav{
+        .nav-ul{
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-content: center;
 
             li{
@@ -28,5 +34,5 @@
 // }
 
 body {
-    background: lightblue;
+    background: orange;
 }
