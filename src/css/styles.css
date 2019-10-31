@@ -1,4 +1,64 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Shade|Quicksand&display=swap");
+footer {
+  background-color: blue;
+  padding: 20px; }
+  footer img {
+    vertical-align: center; }
+  footer ul {
+    list-style: none; }
+  footer li {
+    display: inline;
+    margin: 5px; }
+  footer p {
+    position: relative;
+    top: 20px;
+    float: right; }
+  footer .icon {
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    width: 30px; }
+  footer .icon:hover {
+    background-color: blue; }
+  footer .coll-1, footer .coll-2, footer .coll-3 {
+    width: 30%;
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle; }
+  footer .coll-3 {
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center center; }
+  footer .footer-cols {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  font-size: 1.5em; }
+  .nav-container .logo {
+    margin: 40px;
+    font-family: "Bungee Shade", cursive;
+    font-size: 1.5em; }
+  .nav-container a {
+    text-decoration: none; }
+  .nav-container .nav-ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center; }
+    .nav-container .nav-ul li {
+      list-style: none;
+      margin: 10px;
+      padding: 10px;
+      font-family: "Amatic SC", cursive;
+      font-size: 1.5em; }
+
+body {
+  background: blueviolet; }
+
 /* Coolors Exported Palette - coolors.co/825d34-9e8f65-aecc76-85c46a-4d8236 */
 /* RGB */
 footer {
@@ -22,28 +82,6 @@ footer {
     width: 30px; }
   footer .icon:hover {
     background-color: blue; }
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  font-size: 1.5em; }
-  .nav-container .logo {
-    margin-top: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
-  .nav-container a {
-    text-decoration: none; }
-  .nav-container .nav-ul {
-    display: flex;
-    justify-content: space-around;
-    align-content: center; }
-    .nav-container .nav-ul li {
-      list-style: none;
-      margin: 10px;
-      padding: 10px; }
-
-body {
-  background: orange; }
   footer .coll-1, footer .coll-2, footer .coll-3 {
     width: 30%;
     text-align: left;
