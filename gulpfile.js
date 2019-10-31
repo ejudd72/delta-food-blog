@@ -40,7 +40,7 @@ gulp.task('concatJS', () => {
       .pipe(gulp.dest('./src/js/'));
     }
 );
-
+//uglifies the JS and saves in dist folder
 gulp.task('uglify', () => {
     return gulp.src('src/js/scripts.js')
         .pipe(rename('scripts.min.js'))
@@ -48,9 +48,10 @@ gulp.task('uglify', () => {
         .pipe(gulp.dest('./dist/js/'));   
     }
 );
-
+// Scripts task combines, concatenation and uglifying
 gulp.task('scripts', gulp.series('concatJS','uglify'));
 
+//watch task for the js scripts task
 gulp.task("watch-js", () => {
     return gulp.watch(js_files, gulp.series('scripts'));
     }
