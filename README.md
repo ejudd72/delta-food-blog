@@ -8,11 +8,8 @@ Team Delta's food blog project
 ## Dist and Src folders
 You should only change what is in the src file, do not touch the dist folder. This contains files automatically compiled by our css watch and js files and is minified. 
 
-<<<<<<< HEAD
-=======
 Please note that the styles.css in the dist/css folder has been minified, it has been left as styles.css to make it easier when minifying html and not having to rename the CSS href attribute.
 
->>>>>>> 7460ed6d8e15276c956f15fe4cfdb763abd2d71d
 
 ## Install NPM Packages
 On command line type 'npm install' in the project directory and this will install all relevant packages (seen in node modules folder) for the project.
