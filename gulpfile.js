@@ -80,6 +80,6 @@ function serve(done) {
   done();
 }
 
-let watchBrowser = () => gulp.watch(['./src/scss/**/*.scss', './src/js/*.js'], gulp.series('styles', 'scripts', reload));
+let watchBrowser = () => gulp.watch(['./src/scss/**/*.scss', './src/js/*.js','.src/*.html'], gulp.series('styles', 'scripts','minify-HTML', reload));
 
 gulp.task('default', gulp.series(serve, watchBrowser));
