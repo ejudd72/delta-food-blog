@@ -3,29 +3,52 @@ footer {
     background-color: blue;
     padding: 20px;
     
+    img {
+        vertical-align: center;
+    }
+
     ul {
         list-style: none;
-        position: relative;
-        top: 50px;
-    
     }
+
     li {
         display: inline;
         margin: 5px;
     }
     
     p {
-        text-align: center;
+        position: relative;
+        top: 20px;
+        float:right;
     }
-    img {
+
+    .icon {
         background-color: white;
         border-radius: 50px;
         padding: 10px;
         width: 30px;
     }
-    img:hover {
+
+    .icon:hover {
         background-color: blue;
     }
 
-    
+    .coll-1, .coll-2, .coll-3{
+        width: 30%;
+        text-align: left;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+    .coll-3 {
+        max-height: 150px;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .footer-cols {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
