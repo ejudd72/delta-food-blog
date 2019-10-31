@@ -1,3 +1,5 @@
+/* Coolors Exported Palette - coolors.co/825d34-9e8f65-aecc76-85c46a-4d8236 */
+/* RGB */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Shade|Quicksand&display=swap");
 footer {
   background-color: blue;
@@ -42,9 +44,11 @@ footer {
   .nav-container .logo {
     margin: 40px;
     font-family: "Bungee Shade", cursive;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    color: #825d34; }
   .nav-container a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #825d34; }
   .nav-container .nav-ul {
     display: flex;
     justify-content: space-around;
@@ -54,13 +58,12 @@ footer {
       margin: 10px;
       padding: 10px;
       font-family: "Amatic SC", cursive;
-      font-size: 1.5em; }
+      font-size: 1.5em;
+      color: red; }
 
 body {
   background: blueviolet; }
 
-/* Coolors Exported Palette - coolors.co/825d34-9e8f65-aecc76-85c46a-4d8236 */
-/* RGB */
 footer {
   background-color: blue;
   padding: 20px; }
@@ -95,3 +98,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; }
+
+.carousell-image {
+  max-width: 1400px; }
+
+.carousell-container-home {
+  border: 10px solid grey; }
