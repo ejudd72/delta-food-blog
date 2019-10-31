@@ -1,0 +1,26 @@
+.contact-form {
+    margin: 50px;
+}
+
+form {
+    padding: 0px;
+    .input-group {
+        display: block;
+    }
+    input {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: $yellow-green;
+        border: solid $green 2px;
+    }
+    textarea {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: $yellow-green;
+        border: solid $green 2px;
+    }
+}
