@@ -58,7 +58,7 @@ gulp.task("watch-js", () => {
 );
 
 //HTML MINIFY - destination is dist(ribution) folder
-gulp.task('minify', () => {
+gulp.task('minify-HTML', () => {
   return gulp.src('src/*.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist'));
@@ -74,7 +74,7 @@ function reload(done) {
 function serve(done) {
   browserSync.init({
     server: {
-      baseDir: './'
+      baseDir: './dist'
     }
   });
   done();
