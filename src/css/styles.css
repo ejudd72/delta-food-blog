@@ -163,6 +163,8 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
     width: 100%;
     height: 250px; }
+  .card img:hover {
+    filter: contrast(50%); }
   .card a {
     text-decoration: none;
     padding: 5px;
