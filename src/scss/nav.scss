@@ -14,6 +14,7 @@
 
         a{
             text-decoration: none;
+            color:$brown;
         }
 
         a:hover {
@@ -31,7 +32,7 @@
                 padding: 10px;
                 font-family:$heading-font;
                 font-size:1.5em;
-                color: $brown;
+                color: red;
             }
         }
     }
