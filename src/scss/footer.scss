@@ -17,7 +17,9 @@ footer {
     }
     
     p {
-        text-align: center;
+        position: relative;
+        top: 20px;
+        float:right;
     }
 
     .icon {
@@ -27,19 +29,26 @@ footer {
         width: 30px;
     }
 
-    img:hover {
+    .icon:hover {
         background-color: blue;
     }
 
     .coll-1, .coll-2, .coll-3{
-        max-width: 30%;
+        width: 30%;
         text-align: left;
         padding: 10px;
+        vertical-align: middle;
+    }
+
+    .coll-3 {
+        max-height: 150px;
+        object-fit: cover;
+        object-position: center center;
     }
 
     .footer-cols {
         display: flex;
         justify-content: space-between;
-        align-items: stretch;
+        align-items: flex-start;
     }
 }
