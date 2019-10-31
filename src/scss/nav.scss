@@ -7,7 +7,7 @@
 
         .logo{
             margin-top:30px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            font-family: $logo-font;
         }
 
         a{
@@ -34,5 +34,5 @@
 // }
 
 body {
-    background: orange;
+    background: pink;
 }
