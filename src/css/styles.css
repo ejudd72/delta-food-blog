@@ -53,6 +53,8 @@ footer {
     font-size: 1.5em; }
   .nav-container a {
     text-decoration: none; }
+  .nav-container a:visited {
+    color: #4d8236; }
   .nav-container a:link {
     color: #4d8236; }
   .nav-container a:hover {
