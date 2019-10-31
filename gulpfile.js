@@ -7,7 +7,6 @@ let uglify = require('gulp-uglify-es').default;
 let htmlmin = require('gulp-htmlmin');
 let browserSync = require('browser-sync').create();
 
-let js_files = ['./src/js/jquery-3.3.1.slim.js','./src/js/popper.js','./src/js/bootstrap.js'];
 
 gulp.task('sass', function () {
     var stream = gulp.src('./src/scss/styles.scss')
@@ -19,9 +18,9 @@ gulp.task('sass', function () {
 );
 
 gulp.task('minify-css', () => {
-    return gulp.src('src/css/styles.css')
+    return gulp.src('./src/css/styles.css')
       .pipe(cleanCSS({compatibility: 'ie8'}))
-      .pipe(rename({suffix: '.min'}))
+      // .pipe(rename({suffix: '.min'})) - removed as no longer changing the name
       .pipe(gulp.dest('./dist/css/'));
     }
 );
@@ -33,16 +32,21 @@ gulp.task('watch', () =>{
     }
 );
 
+let js_files = ['./src/js/jquery-3.3.1.slim.js','./src/js/popper.js','./src/js/bootstrap.js'];
 //concatenates the JS file and 
 gulp.task('concatJS', () => {
     return gulp.src(js_files)
       .pipe(concat('scripts.js'))
+<<<<<<< HEAD
       .pipe(gulp.dest('./src/js/'));
+=======
+      .pipe(gulp.dest('./dist/js/'));
+>>>>>>> master
     }
 );
 //uglifies the JS and saves in dist folder
 gulp.task('uglify', () => {
-    return gulp.src('src/js/scripts.js')
+    return gulp.src('./dist/js/scripts.js')
         .pipe(rename('scripts.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./dist/js/'));   
@@ -64,7 +68,7 @@ gulp.task('minify-HTML', () => {
     .pipe(gulp.dest('dist'));
 });
 
-
+ 
 // This is the browser sync function
 function reload(done) {
   browserSync.reload();
@@ -80,6 +84,6 @@ function serve(done) {
   done();
 }
 
-let watchBrowser = () => gulp.watch(['./src/scss/**/*.scss', './src/js/*.js'], gulp.series('styles', 'scripts', reload));
+let watchBrowser = () => gulp.watch(['./src/scss/**/*.scss', './src/js/*.js', './src/*.html'], gulp.series('styles', 'scripts','minify-HTML', reload));
 
 gulp.task('default', gulp.series(serve, watchBrowser));
