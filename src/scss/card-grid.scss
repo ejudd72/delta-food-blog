@@ -1,0 +1,39 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    // background-color: $green;
+    padding: 20px;
+}
+.card {
+    display: inline-block;
+    grid-column: 1fr;
+    grid-row: 1fr;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: $yellow-green;
+    border: 2px solid $brown;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+        align-self: center;
+        color: black;
+        margin-bottom: 20px;
+
+    }
+
+    a:hover {
+        background-color: $brown;
+    }
+}
