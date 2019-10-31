@@ -2,7 +2,7 @@
 /* RGB */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Shade|Quicksand&display=swap");
 footer {
-  background-color: blue;
+  background-color: #9e8f65;
   padding: 20px; }
   footer img {
     vertical-align: center; }
@@ -16,25 +16,28 @@ footer {
     top: 20px;
     float: right; }
   footer .icon {
-    background-color: white;
+    background-color: #aecc76;
     border-radius: 50px;
     padding: 10px;
     width: 30px; }
   footer .icon:hover {
-    background-color: blue; }
+    background-color: #4d8236; }
   footer .coll-1, footer .coll-2, footer .coll-3 {
     width: 30%;
     text-align: left;
     padding: 10px;
-    vertical-align: middle; }
+    vertical-align: middle;
+    background-color: #825d34;
+    height: 150px; }
   footer .coll-3 {
     max-height: 150px;
     object-fit: cover;
-    object-position: center center; }
+    object-position: center center;
+    vertical-align: middle; }
   footer .footer-cols {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; }
+    align-items: stretch; }
 
 .nav-container {
   display: flex;
