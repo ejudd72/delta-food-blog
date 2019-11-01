@@ -7,7 +7,10 @@ footer {
   footer img {
     vertical-align: center; }
   footer ul {
-    list-style: none; }
+    list-style: none;
+    margin-top: 10px;
+    padding-inline-start: 0px;
+    padding-top: 10px; }
   footer li {
     display: inline;
     margin: 5px; }
@@ -26,9 +29,10 @@ footer {
     width: 30%;
     text-align: left;
     padding: 10px;
-    vertical-align: middle;
     background-color: #825d34;
-    height: 150px; }
+    height: 150px;
+    overflow: scroll;
+    vertical-align: bottom; }
   footer .coll-3 {
     max-height: 150px;
     object-fit: cover;
@@ -84,7 +88,10 @@ footer {
   footer img {
     vertical-align: center; }
   footer ul {
-    list-style: none; }
+    list-style: none;
+    margin-top: 10px;
+    padding-inline-start: 0px;
+    padding-top: 10px; }
   footer li {
     display: inline;
     margin: 5px; }
@@ -103,9 +110,10 @@ footer {
     width: 30%;
     text-align: left;
     padding: 10px;
-    vertical-align: middle;
     background-color: #825d34;
-    height: 150px; }
+    height: 150px;
+    overflow: scroll;
+    vertical-align: bottom; }
   footer .coll-3 {
     max-height: 150px;
     object-fit: cover;
