@@ -146,20 +146,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-grid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-gap: 15px;
-  padding: 20px; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  max-width: 98%;
+  align-self: center; }
 
 .card {
   display: inline-block;
-  grid-column: 1fr;
-  grid-row: 1fr;
   padding: 10px;
   width: 95%;
   border-radius: 5px;
+  margin: 10px;
   background-color: #aecc76;
   border: 2px solid #825d34;
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); }
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+  display: flex;
+  flex-wrap: wrap; }
   .card img {
     object-fit: cover;
     width: 100%;
@@ -172,7 +174,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     border-radius: 5px;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-    align-self: center;
+    justify-content: center;
+    display: flex;
     color: black;
     margin-bottom: 20px; }
   .card a:hover {
