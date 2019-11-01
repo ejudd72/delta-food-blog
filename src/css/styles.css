@@ -228,6 +228,10 @@ h1, h2, h3, h4, h5, h6 {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
   display: flex;
   flex-wrap: wrap; }
+  .card p {
+    max-height: 150px;
+    overflow: scroll;
+    margin-bottom: 15px; }
   .card img {
     object-fit: cover;
     width: 100%;
