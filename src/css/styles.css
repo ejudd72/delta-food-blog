@@ -22,7 +22,8 @@ footer {
     background-color: #aecc76;
     border-radius: 50px;
     padding: 10px;
-    width: 30px; }
+    width: 30px;
+    overflow: hidden; }
   footer .icon:hover {
     background-color: #4d8236; }
   footer .coll-1, footer .coll-2, footer .coll-3 {
@@ -103,7 +104,8 @@ footer {
     background-color: #aecc76;
     border-radius: 50px;
     padding: 10px;
-    width: 30px; }
+    width: 30px;
+    overflow: hidden; }
   footer .icon:hover {
     background-color: #4d8236; }
   footer .coll-1, footer .coll-2, footer .coll-3 {
