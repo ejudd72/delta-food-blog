@@ -49,6 +49,12 @@ footer {
         height: 150px;
         overflow: scroll;
         vertical-align: bottom;
+        @media (min-width: 800px) {
+            width: 50%;
+        }
+        @media (min-width: 400px) {
+            width: 100%;
+        }
     }
 
     .coll-3 {
