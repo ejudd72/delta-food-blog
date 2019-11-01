@@ -48,12 +48,14 @@ table {
 
 /* Coolors Exported Palette - coolors.co/825d34-9e8f65-aecc76-85c46a-4d8236 */
 /* RGB */
+
 * {
   box-sizing: border-box; }
 
 body {
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+padding: 0;}
 
 footer {
   background-color: #9e8f65;
@@ -111,9 +113,13 @@ footer {
   z-index: 1;
   font-size: 1.5em;
   width: 100%;
+
+  background-color: white; }
+
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5); }
+  
+
   .nav-container .logo {
     margin: 40px;
     font-family: "Bungee Shade", cursive;
@@ -127,6 +133,8 @@ footer {
   .nav-container a:hover {
     color: #825d34;
     text-decoration: none; }
+  .nav-container .burger-menu {
+    display: none; }
   .nav-container .nav-ul {
     display: flex;
     justify-content: center;
@@ -137,13 +145,34 @@ footer {
       padding: 0 30px;
       font-family: "Amatic SC", cursive;
       font-size: 1.5em; }
-  @media only screen and (max-width: 900px) {
+  @media (max-width: 1200px) {
+    .nav-container .nav-ul {
+      font-size: 0.7em; }
+    .nav-container .logo {
+      margin: 40px;
+      font-family: "Bungee Shade", cursive;
+      font-size: 1.1em; }
+    .nav-container .burger-menu {
+      display: none; } }
+  @media (max-width: 800px) {
     .nav-container .nav-ul {
       display: none; }
     .nav-container .logo {
       margin: 40px;
       font-family: "Bungee Shade", cursive;
-      font-size: 1.3em; } }
+      font-size: 1em; }
+    .nav-container .burger-menu {
+      display: inline-block;
+      background: none;
+      border: none;
+      margin: 30px 30px 0 0; }
+    .nav-container .burger-menu-btn {
+      width: 50px;
+      height: 50px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      outline: none; } }
 
 .banner {
   object-fit: cover;
