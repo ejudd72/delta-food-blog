@@ -9,6 +9,10 @@ footer {
 
     ul {
         list-style: none;
+        margin-top: 10px;
+        padding-inline-start: 0px;
+        padding-top: 10px;
+
     }
 
     li {
@@ -27,31 +31,43 @@ footer {
         border-radius: 50px;
         padding: 10px;
         width: 30px;
+        overflow: hidden;
     }
 
     .icon:hover {
         background-color: $dark-green;
     }
 
+    .footer-cols {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        // align-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+
     .coll-1, .coll-2, .coll-3{
         width: 30%;
         text-align: left;
         padding: 10px;
-        vertical-align: middle;
         background-color: $brown;
         height: 150px;
+        overflow: hidden;
+        // vertical-align: bottom;
+        @media (min-width: 800px) {
+            width: 50%;
+        }
+        @media (min-width: 400px) {
+            width: 100%;
+        }
     }
 
     .coll-3 {
         max-height: 150px;
         object-fit: cover;
-        object-position: center center;
         vertical-align: middle;
     }
 
-    .footer-cols {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-    }
+
 }
