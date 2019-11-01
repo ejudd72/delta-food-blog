@@ -34,10 +34,12 @@ On command line type 'npm install' in the project directory and this will instal
 6. cards styling
 
 ### Jae
-1. Navbar 
+1. Basic HTML structures (with Ross)
+2. Navbar 
 
 ### Ross
-1. Carousel 
+1. site layout design (with Jae)
+2. Carousel 
 
 ### Nic
 1. Gulpfile HTML & Browser-Sync
