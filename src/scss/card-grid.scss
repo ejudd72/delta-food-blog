@@ -1,7 +1,7 @@
 .card-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 15px;
     // background-color: $green;
     padding: 20px;
 }
@@ -10,6 +10,7 @@
     grid-column: 1fr;
     grid-row: 1fr;
     padding: 10px;
+    width: 95%;
     border-radius: 5px;
     background-color: $yellow-green;
     border: 2px solid $brown;
@@ -40,4 +41,16 @@
     a:hover {
         background-color: $brown;
     }
+}
+.grid-col-1 {
+    grid-column: 1/2;
+    width: 100%;
+}
+.grid-col-2 {
+    grid-column: 2/3;
+    width: 100%;
+}
+.grid-col-3 {
+    grid-column: 3/4;
+    width: 100%;
 }
