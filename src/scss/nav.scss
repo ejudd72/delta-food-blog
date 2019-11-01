@@ -30,6 +30,10 @@
             text-decoration: none;
         }
 
+        .burger-menu{
+            display: none;
+        }
+
         .nav-ul{
             display: flex;
             justify-content: center;
@@ -43,11 +47,12 @@
                 font-family:$heading-font;
                 font-size:1.5em;
             }
+
         }
 
         @media only screen and(max-width: 1200px) {
             .nav-ul {
-                display: none;
+                font-size:0.7em;
             }
 
             .logo{
@@ -55,7 +60,43 @@
                 font-family: $logo-font;
                 font-size: 1.1em;
             } 
+
+            .burger-menu {
+               display:none;
+            }
+
         }
+
+        @media only screen and(max-width: 800px){
+            .nav-ul {
+                display:none;
+            }
+
+            .logo{
+                margin: 40px;
+                font-family: $logo-font;
+                font-size: 1em;
+            } 
+
+            .burger-menu {
+                display: inline-block;
+                background: none;
+                border: none;
+                margin: 30px 30px 0 0 ;
+            }
+
+            .burger-menu-btn {
+                width: 50px;
+                height: 50px;
+                background: none;
+                border: none;
+                cursor: pointer;
+                outline: none;
+            }
+
+        }
+
+
 
     }
 

@@ -60,6 +60,8 @@ footer {
   .nav-container a:hover {
     color: #825d34;
     text-decoration: none; }
+  .nav-container .burger-menu {
+    display: none; }
   .nav-container .nav-ul {
     display: flex;
     justify-content: center;
@@ -72,11 +74,32 @@ footer {
       font-size: 1.5em; }
   @media only screen and (max-width: 1200px) {
     .nav-container .nav-ul {
+      font-size: 0.7em; }
+    .nav-container .logo {
+      margin: 40px;
+      font-family: "Bungee Shade", cursive;
+      font-size: 1.1em; }
+    .nav-container .burger-menu {
+      display: none; } }
+  @media only screen and (max-width: 800px) {
+    .nav-container .nav-ul {
       display: none; }
     .nav-container .logo {
       margin: 40px;
       font-family: "Bungee Shade", cursive;
-      font-size: 1.1em; } }
+      font-size: 1em; }
+    .nav-container .burger-menu {
+      display: inline-block;
+      background: none;
+      border: none;
+      margin: 30px 30px 0 0; }
+    .nav-container .burger-menu-btn {
+      width: 50px;
+      height: 50px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      outline: none; } }
 
 footer {
   background-color: #9e8f65;
