@@ -63,22 +63,3 @@
         background-color: $brown;
     }
 }
-
-.banner {
-    object-fit: cover;
-    filter: contrast(50%);
-    width: 100%;
-    h1 {
-        font-family: $heading-font;
-        font-size: 6rem;
-        color: black;
-        text-shadow: 1px 1px 2px white;
-        position: absolute;
-        top: 200px;
-        z-index: 10;
-        text-align: center;
-        display: block;
-        padding: 100px;
-        background-color: rgba(0, 0, 0, 0.2);
-    }
-}

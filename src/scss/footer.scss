@@ -34,11 +34,17 @@ footer {
         overflow: hidden;
     }
 
-
-
-
     .icon:hover {
         background-color: $dark-green;
+    }
+
+    .footer-cols {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        // align-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
     }
 
     .coll-1, .coll-2, .coll-3{
@@ -47,8 +53,8 @@ footer {
         padding: 10px;
         background-color: $brown;
         height: 150px;
-        overflow: scroll;
-        vertical-align: bottom;
+        overflow: hidden;
+        // vertical-align: bottom;
         @media (min-width: 800px) {
             width: 50%;
         }
@@ -60,13 +66,8 @@ footer {
     .coll-3 {
         max-height: 150px;
         object-fit: cover;
-        object-position: center center;
         vertical-align: middle;
     }
 
-    .footer-cols {
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-    }
+
 }
