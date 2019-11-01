@@ -43,9 +43,9 @@ gulp.task('concatJS', () => {
 //uglifies the JS and saves in dist folder
 gulp.task('uglify', () => {
     return gulp.src('./dist/js/scripts.js')
-        .pipe(rename('scripts.min.js'))
+        // .pipe(rename('scripts.min.js')) there is no need to re name anymore.
         .pipe(uglify())
-        .pipe(gulp.dest('./dist/js/'));   
+        .pipe(gulp.dest('./dist/js/'));
     }
 );
 // Scripts task combines, concatenation and uglifying
