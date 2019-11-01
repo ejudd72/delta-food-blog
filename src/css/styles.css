@@ -173,6 +173,9 @@ footer {
       .banner h1 {
         padding-top: 60px; } }
 
+.contact img {
+  max-height: 300px; }
+
 .contact-form {
   margin: 50px; }
 
