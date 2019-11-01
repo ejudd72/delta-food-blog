@@ -1,6 +1,10 @@
 /* Coolors Exported Palette - coolors.co/825d34-9e8f65-aecc76-85c46a-4d8236 */
 /* RGB */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Shade|Quicksand&display=swap");
+body {
+  margin: 0;
+  padding: 0; }
+
 footer {
   background-color: #9e8f65;
   padding: 20px; }
