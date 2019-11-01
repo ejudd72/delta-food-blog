@@ -148,14 +148,22 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 .carousell-image {
-  max-width: 1400px;
-  max-height: 650px; }
+  object-fit: cover;
+  object-position: 50% 100%;
+  max-height: 700px;
+  overflow: hidden; }
 
 .carousell-item {
-  object-fit: cover; }
+  max-height: 700px;
+  object-fit: cover;
+  object-position: 50% 100%;
+  overflow: hidden; }
 
 .carousell-container-home {
-  border: none; }
+  max-height: 700px;
+  object-fit: cover;
+  object-position: 50% 100%;
+  overflow: hidden; }
 
 .card-grid {
   display: grid;
