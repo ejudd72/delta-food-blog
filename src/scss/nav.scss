@@ -50,7 +50,7 @@
 
         }
 
-        @media only screen and(max-width: 1200px) {
+        @media (max-width: 1200px) {
             .nav-ul {
                 font-size:0.7em;
             }
@@ -67,7 +67,7 @@
 
         }
 
-        @media only screen and(max-width: 800px){
+        @media (max-width: 800px){
             .nav-ul {
                 display:none;
             }

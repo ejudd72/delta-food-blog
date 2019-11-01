@@ -72,7 +72,7 @@ footer {
       padding: 0 30px;
       font-family: "Amatic SC", cursive;
       font-size: 1.5em; }
-  @media only screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     .nav-container .nav-ul {
       font-size: 0.7em; }
     .nav-container .logo {
@@ -81,7 +81,7 @@ footer {
       font-size: 1.1em; }
     .nav-container .burger-menu {
       display: none; } }
-  @media only screen and (max-width: 800px) {
+  @media (max-width: 800px) {
     .nav-container .nav-ul {
       display: none; }
     .nav-container .logo {
