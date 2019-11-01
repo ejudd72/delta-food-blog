@@ -148,10 +148,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 .carousell-image {
-  max-width: 1400px; }
+  max-width: 1400px;
+  max-height: 650px; }
+
+.carousell-item {
+  object-fit: cover; }
 
 .carousell-container-home {
-  border: 10px solid grey; }
+  border: none; }
 
 .card-grid {
   display: grid;

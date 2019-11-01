@@ -1,8 +1,13 @@
 .carousell-image {
     max-width: 1400px;
+    max-height: 650px;
 
 }
 
+.carousell-item{
+    object-fit: cover;
+
+}
 .carousell-container-home {
-    border :10px solid grey;
+    border :none;
 }
