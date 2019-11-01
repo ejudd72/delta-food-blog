@@ -45,7 +45,7 @@
             }
         }
 
-        @media only screen and(max-width: 900px) {
+        @media only screen and(max-width: 1200px) {
             .nav-ul {
                 display: none;
             }
@@ -53,7 +53,7 @@
             .logo{
                 margin: 40px;
                 font-family: $logo-font;
-                font-size: 1.3em;
+                font-size: 1.1em;
             } 
         }
 
