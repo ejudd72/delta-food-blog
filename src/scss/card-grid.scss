@@ -67,6 +67,7 @@
 .banner {
     object-fit: cover;
     filter: contrast(50%);
+    width: 100%;
     h1 {
         font-family: $heading-font;
         font-size: 6rem;

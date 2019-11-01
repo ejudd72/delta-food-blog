@@ -48,6 +48,10 @@ table {
 
 /* Coolors Exported Palette - coolors.co/825d34-9e8f65-aecc76-85c46a-4d8236 */
 /* RGB */
+body {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 footer {
   background-color: #9e8f65;
   padding: 20px; }
@@ -77,7 +81,7 @@ footer {
     width: 30%;
     text-align: left;
     padding: 10px;
-    background-color: #825d34;
+    background-color: maroon;
     height: 150px;
     overflow: scroll;
     vertical-align: bottom; }
@@ -104,6 +108,8 @@ footer {
   z-index: 1;
   font-size: 1.5em;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.5); }
   .nav-container .logo {
     margin: 40px;
@@ -116,7 +122,7 @@ footer {
   .nav-container a:link {
     color: #4d8236; }
   .nav-container a:hover {
-    color: #825d34;
+    color: maroon;
     text-decoration: none; }
   .nav-container .nav-ul {
     display: flex;
@@ -165,7 +171,7 @@ footer {
     width: 30%;
     text-align: left;
     padding: 10px;
-    background-color: #825d34;
+    background-color: maroon;
     height: 150px;
     overflow: scroll;
     vertical-align: bottom; }
@@ -208,13 +214,15 @@ form {
     border: solid #85c46a 2px; }
 
 body {
-  font-family: "Quicksand", sans-serif; }
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5rem; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Amatic SC", cursive;
   font-size: 2.5rem;
   margin: 10px 0;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 2.5rem; }
 
 .carousell-image {
   max-width: 1400px; }
@@ -243,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   margin: 10px;
   background-color: #aecc76;
-  border: 2px solid #825d34;
+  border: 2px solid maroon;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
   display: flex;
   flex-wrap: wrap; }
@@ -268,11 +276,12 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     margin-bottom: 20px; }
   .card a:hover {
-    background-color: #825d34; }
+    background-color: maroon; }
 
 .banner {
   object-fit: cover;
-  filter: contrast(50%); }
+  filter: contrast(50%);
+  width: 100%; }
   .banner h1 {
     font-family: "Amatic SC", cursive;
     font-size: 6rem;
